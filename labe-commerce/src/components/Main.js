@@ -1,7 +1,8 @@
 import React from 'react'
-import Header from './Header'
 import CardMain from "../components/CardMain";
 import styled from "styled-components";
+import Cart from './Cart';
+
 
 const MainContainer = styled.div`
 background-color: lightgrey;
@@ -20,14 +21,12 @@ padding: 1rem;
 function Main( ) {
   return (
     <MainContainer>
-        <Header/>
+       
         <CardContainer>
         <CardMain />
-        <CardMain />
-        <CardMain />
-        <CardMain />
-        <CardMain />
-        </CardContainer>
+       
+         </CardContainer>
+       
     </MainContainer>
 
   )
